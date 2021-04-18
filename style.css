@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background-repeat: no-repeat;
+    font: 14px sans-serif; 
+    background-color: rgba(18, 41, 116, 0.664);
+  }
+  
+  .bg-image{
+    background-image: url("slogos.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position-x: right;
+  }
+
+  form, .content {
+    width: 255px;
+    height: 450px;
+    margin: 30px auto;
+    padding: 50px;
+    border: 1px solid #B0C4DE;
+    background: rgba(230, 208, 84, 0.52);
+    border-radius: 5%;
+  }
+  label{
+    margin-bottom: 2px;
+    font-size: 17px;
+  }
+  
+  input{
+    background: rgb(214, 221, 224);
+    border: rgb(28, 51, 51);
+    border-radius: 5px;
+    border-bottom: rgb(2, 2, 114);
+    height: 35px;
+    width: 250px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+  }
+
+  .btn{
+    background: rgb(40, 192, 73);
+    color: whitesmoke;
+    height: 30px;
+    width: 70px;
+    border-width: 3px rgb(55, 102, 102);
+    border-color: rgb(105, 86, 86);
+    border-radius: 7px;
+    margin-left: 178px;
+    margin-bottom: 9px;
+}
+.btn:hover{
+    background: rgb(96, 219, 148);
+    border-width: 1px;
+    
+}
+
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 7px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+
+  .sup{
+    color: rgb(3, 3, 97);
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 30px;
+  }
+
+  .note{
+    margin-bottom: 8px;
+  }
+  #imp{
+    color: crimson;
+  }
+
+  #frm2 {
+    width: 255px;
+    height: 256px;
+    margin: 30px auto;
+    padding: 50px;
+    border: 1px solid #B0C4DE;
+    background: rgba(230, 208, 84, 0.52);
+    border-radius: 5%;
+  }
+
+  .btn1{
+    background: rgb(111, 141, 238);
+    color: whitesmoke;
+    height: 30px;
+    width: 70px;
+    border-width: 3px rgb(55, 102, 102);
+    border-color: rgb(105, 86, 86);
+    border-radius: 7px;
+    margin-left: 178px;
+    margin-bottom: 9px;
+}
+.btn1:hover{
+    background: rgb(169, 185, 236);
+    border-width: 1px;
+    
+}
+
+.ad{
+  background: dodgerblue;
+  border: wheat;
+  width: 100%;
+  height: 75px;
+  margin-bottom: 20px;
+}
+#banner{
+  color: navy;
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+}
+
+.content {
+  width: 255px;
+  height: 100px;
+  margin: 30px auto;
+  padding: 50px;
+  border: 1px solid #B0C4DE;
+  background: rgba(230, 208, 84, 0.52);
+  border-radius: 5%;
+}
+
+.bg-image1{
+  background-image: url("slogos.png");
+  background-repeat: repeat;
+  background-size: 35% 750px;
+  background-position: top;
+}
+
+.pi{
+  text-align: center;
+}
+
+  
