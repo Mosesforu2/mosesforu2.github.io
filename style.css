@@ -150,4 +150,31 @@
   text-align: center;
 }
 
-  
+.pic{
+  background-image: url("back.jpeg");
+  background-size: cover;
+}
+#wel{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.out{
+  color: #dff0d8;
+  font-size: 17px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+footer{
+  color: white;
+  margin-top: 33%;
+  margin-left: 40%;
+}
+.link{
+  color: aqua;
+}
+.dev{
+  color: white;
+  font-size: 10px;
+  margin-left: 40%;
+}
