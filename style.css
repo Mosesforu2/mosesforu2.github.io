@@ -11,13 +11,13 @@
   .bg-image{
     background-image: url("slogos.png");
     background-repeat: no-repeat;
-    background-size: 100px 100px;
+    background-size: 22% 18%;
     background-position-x: right;
   }
 
   form, .content {
-    width: 255px;
-    height: 450px;
+    width: 30%;
+    height: 60%;
     margin: 30px auto;
     padding: 50px;
     border: 1px solid #B0C4DE;
@@ -35,7 +35,7 @@
     border-radius: 5px;
     border-bottom: rgb(2, 2, 114);
     height: 35px;
-    width: 250px;
+    width: 100%;
     margin-top: 2px;
     margin-bottom: 20px;
   }
@@ -44,11 +44,11 @@
     background: rgb(40, 192, 73);
     color: whitesmoke;
     height: 30px;
-    width: 70px;
+    width: 35%;
     border-width: 3px rgb(55, 102, 102);
     border-color: rgb(105, 86, 86);
     border-radius: 7px;
-    margin-left: 178px;
+    margin-left: 65%;
     margin-bottom: 9px;
 }
 .btn:hover{
@@ -89,8 +89,8 @@
   }
 
   #frm2 {
-    width: 255px;
-    height: 256px;
+    width: 30%;
+    height: 60%;
     margin: 30px auto;
     padding: 50px;
     border: 1px solid #B0C4DE;
@@ -102,11 +102,11 @@
     background: rgb(111, 141, 238);
     color: whitesmoke;
     height: 30px;
-    width: 70px;
+    width: 35%;
     border-width: 3px rgb(55, 102, 102);
     border-color: rgb(105, 86, 86);
     border-radius: 7px;
-    margin-left: 178px;
+    margin-left: 65%;
     margin-bottom: 9px;
 }
 .btn1:hover{
@@ -130,7 +130,7 @@
 }
 
 .content {
-  width: 255px;
+  width: 30%;
   height: 100px;
   margin: 30px auto;
   padding: 50px;

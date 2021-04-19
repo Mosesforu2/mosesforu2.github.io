@@ -9,22 +9,22 @@
 <div class="ad"><h1 id="banner">Superteam Ghana</div>
   <form method="post" action="signup.php" class="bg-image">
   	<?php include('errors.php'); ?>
-	  <h2 class="sup">Sign up</h2>
+	  <h2 class="sup">Sign up</h2><br />
 	  <p class="note">Please fill this form to create an account.</P>
   	<p>
-  	  <label><span>Username<sup id="imp">*</sup></span></label>
+  	  <label><span>Username<sup id="imp">*</sup></span></label><br />
   	  <input type="text" name="username" value="<?php echo $username; ?>" placeholder="Your full name">
 	</p>
   	<p>
-  	  <label>Email<sup id="imp">*</sup></label>
+  	  <label>Email<sup id="imp">*</sup></label><br />
   	  <input type="email" name="email" value="<?php echo $email; ?>" placeholder="email@example.com">
 	</p>
   	<p>
-  	  <label>Password<sup id="imp">*</sup></label>
+  	  <label>Password<sup id="imp">*</sup></label><br />
   	  <input type="password" name="password_1">
   	</p>
   	<p>
-  	  <label>Confirm password<sup id="imp">*</sup></label>
+  	  <label>Confirm password<sup id="imp">*</sup></label><br />
   	  <input type="password" name="password_2">
 	</p>
   	<p>

@@ -11,11 +11,11 @@
   	<?php include('errors.php'); ?>
 	  <h2 class="sup">Login Required</h2>
   	<div class="input-group">
-  		<label>Username</label>
+  		<label>Username</label><br />
   		<input type="text" name="username" >
   	</div>
   	<div class="input-group">
-  		<label>Password</label>
+  		<label>Password</label><br />
   		<input type="password" name="password">
   	</div>
   	<div class="input-group">
