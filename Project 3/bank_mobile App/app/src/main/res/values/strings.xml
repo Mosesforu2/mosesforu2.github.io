@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project Final</string>
+    <string name="accountsprompt">Select Account</string>
+    <string name="username">Username</string>
+    <string name="login_required">Login Required</string>
+    <string name="admin_code">Admin Code</string>
+    <string name="button">Button</string>
+    <color name="actionbar_background">#BFBFA4</color>
+    <color name="actionbar_text">#0B6E7A</color>
+</resources>

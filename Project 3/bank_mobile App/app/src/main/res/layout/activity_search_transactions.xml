@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFBFA4"
+    android:backgroundTint="#BFBFA4"
+    tools:context=".SearchTransactions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="From Date :"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editFromDate"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:inputType="date">
+
+                    <requestFocus />
+                </EditText>
+
+                <ImageButton
+                    android:id="@+id/buttonFromDateDialog"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="showFromDateDialog"
+                    android:src="@drawable/datepicker" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To Date :"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editToDate"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:inputType="date" />
+
+                <ImageButton
+                    android:id="@+id/buttonToDateDialog"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="showToDateDialog"
+                    android:src="@drawable/datepicker" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="From Amount:"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editFromAmount"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To Amount :"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editToAmount"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="searchTransactions"
+                android:text="Search"></Button>
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clearFields"
+                android:text="Clear" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
